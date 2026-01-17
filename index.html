@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isabel Lajedo</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
 
+    <style>
+        /* Reset básico para remover margens padrão */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* Faz o corpo ocupar 100% da altura da tela */
+            height: 100vh;
+            
+            /* Configuração do fundo escuro com degradê sutil */
+            background: linear-gradient(135deg, #141414 0%, #2c3e50 100%);
+            
+            /* Centralização perfeita (Vertical e Horizontal) */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            /* Tipografia */
+            font-family: 'Montserrat', sans-serif;
+            color: #f0f0f0;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            /* Animação suave de entrada */
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        h1 {
+            font-size: 3rem; /* Tamanho grande */
+            font-weight: 600;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        p {
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: #b0b0b0; /* Um cinza mais claro para o subtítulo */
+            letter-spacing: 1px;
+        }
+
+        /* Barra decorativa abaixo do nome */
+        .divider {
+            width: 60px;
+            height: 3px;
+            background-color: #d4af37; /* Um tom dourado sutil */
+            margin: 20px auto;
+            border-radius: 2px;
+        }
+
+        /* Ajustes para telas de celular (Responsividade) */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: 1rem;
